@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-tl*@)2h4pobz8vgex*5-n7_%3=zs5oa79zlmr@2hq@_7n(asqs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-CORS_ALLOWED_ORIGINS = ['https://djacketdjangoapp.herokuapp.com/']
+CORS_ALLOWED_ORIGINS = ['https://djacket-django.herokuapp.com']
 STRIPE_SECRET_KEY = 'sk_test_51KX5HuSJGBLQVgYjzQEhDKUdE0sk5n3Tc9n1liU4PpGHwoV4taIUxQFlxuSfUXDkUxu1C65u4eu0I5rzOFg6cqWj00aTJ7eJlt'
 
 
@@ -122,5 +122,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEIDA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIR = os.path.join(BASE_DIR, 'static')
 django_heroku.settings(locals())
