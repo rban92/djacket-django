@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-tl*@)2h4pobz8vgex*5-n7_%3=zs5oa79zlmr@2hq@_7n(asqs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-CORS_ALLOWED_ORIGINS = ['https://django-djacket.herokuapp.com']
+CORS_ALLOWED_ORIGINS = ['https://djacketdjangoapp.herokuapp.com/']
 STRIPE_SECRET_KEY = 'sk_test_51KX5HuSJGBLQVgYjzQEhDKUdE0sk5n3Tc9n1liU4PpGHwoV4taIUxQFlxuSfUXDkUxu1C65u4eu0I5rzOFg6cqWj00aTJ7eJlt'
 
 
